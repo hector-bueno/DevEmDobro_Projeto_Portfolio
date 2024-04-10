@@ -135,6 +135,10 @@ body {
   justify-content: center;
 }
 
+.projetos .ocultar {
+  display: none;
+}
+
 .projetos .projeto {
   max-width: 260px;
   max-height: 500px;

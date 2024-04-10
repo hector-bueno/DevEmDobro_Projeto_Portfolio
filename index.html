@@ -43,48 +43,35 @@
         <h1 style="font-family: 'Poppins'">Olá! Sou Hector Bueno</h1>
         <p>Um desenvolvedor frontend em formação apaixonado por tecnologia.</p>
         <p>
-          Estou sempre me desafiando com novos projetos e buscando feedback na
-          comunidade de programação, além de compartilhar meus conhecimentos. 🤣
+          Estou sempre me desafiando com novos projetos e buscando feedback na comunidade de programação, além de compartilhar meus conhecimentos. 🤣
         </p>
         <p>Ah, também sou fã de jogos, filmes, séries e animes. ❤</p>
 
         <ul class="redes-sociais">
           <li>
             <a
-              href="https://www.linkedin.com/in/hector-bueno/"
-              title="Ir para o LinkedIn"
-              target="_blank"
-            >
-              <i class="fab fa-linkedin-in"> </i>
+              href="https://www.linkedin.com/in/hector-bueno/" title="Ir para o LinkedIn" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
             </a>
           </li>
 
           <li>
             <a
-              href="https://wa.me/5511964289872"
-              title="Enviar Mensagem no WhatsApp"
-              target="_blank"
-            >
+              href="https://wa.me/5511964289872" title="Enviar Mensagem no WhatsApp" target="_blank">
               <i class="fab fa-whatsapp"></i>
             </a>
           </li>
 
           <li>
             <a
-              href="https://github.com/hector-bueno"
-              title="Ir para o GitHub"
-              target="_blank"
-            >
+              href="https://github.com/hector-bueno" title="Ir para o GitHub" target="_blank">
               <i class="fab fa-github"></i>
             </a>
           </li>
 
           <li>
             <a
-              href="https://www.instagram.com/heckbueno/"
-              title="Ir para o Instagram"
-              target="_blank"
-            >
+              href="https://www.instagram.com/heckbueno/" title="Ir para o Instagram" target="_blank">
               <i class="fab fa-instagram"></i>
             </a>
           </li>
@@ -94,9 +81,7 @@
       <div class="container-foto">
         <div class="foto sombra-interna">
           <img
-            src="./src/imagens/foto-perfil.png"
-            alt="foto do portfólio do Hector"
-          />
+            src="./src/imagens/foto-perfil.png" alt="foto do portfólio do Hector" />
         </div>
       </div>
     </section>
@@ -104,7 +89,7 @@
     <section class="projetos" id="projetos">
       <h2 class="titulo">Meus projetos</h2>
 
-      <div class="container-projetos">
+      <div class="container-projetos ocultar">
         <div class="projeto ativo">
           <a
             href="https://github.com/hector-bueno/Cranbery_Podcasts"
@@ -129,7 +114,6 @@
               >
                 <p>🐱‍👤 Ver no Netlify</p>
               </a>
-              <!-- <p>🐱‍👤 Ver no GitHub Pages</p> -->
             </div>
           </a>
         </div>
@@ -264,7 +248,11 @@
         </div>
       </div>
 
-      <button class="btn-mostrar-projetos">Mostrar mais</button>
+      <button class="btn-mostrar-projetos" onclick="mostrarProjetos()">Mostrar mais</button>
     </section>
+    
+    <script src="./src/js/index.js"></script>
+
   </body>
+
 </html>
